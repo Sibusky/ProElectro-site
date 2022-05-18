@@ -1,0 +1,57 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__links/header__links.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__link-text/header__link-text.css);
+@import url(../blocks/header/__link-text/_active/header__link-text_active.css);
+@import url(../blocks/container/container.css);
+@import url(../blocks/link/link.css);
+
+
+.lead {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1280px;
+    margin: 0 auto 73px;
+}
+
+.lead__title {
+    font-family: 'Inter', Arial, sans-serif;
+    font-style:  normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 1;
+    text-rendering: optimizeLegibility;
+    text-decoration: none;
+    color: #2E3D41;
+    text-align: center;
+    max-width: 780px;
+    padding: 0;
+    margin: 0 auto 33px;
+}
+
+.lead__pic-container {
+    display: flex;
+    flex-direction: column;
+    max-height: 400px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+.lead__pic{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.lead__pic-subtitle {
+
+}
